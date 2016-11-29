@@ -1,0 +1,258 @@
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2016-11-28 19:48:29
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  0.10       0k        0.0
+    2-11  0.23       0k        0.0
+TIME 2016-11-28 19:48:30
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  0.10       0k        0.0
+    2-11  0.23       0k        0.0
+TIME 2016-11-28 19:48:31
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  0.49       0k        0.0
+    2-11  0.43       0k       48.0
+TIME 2016-11-28 19:48:32
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     806k     5568.0
+    2-11  0.48       6k     1440.0
+TIME 2016-11-28 19:48:33
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     851k     5736.0
+    2-11  0.50       3k     1872.0
+TIME 2016-11-28 19:48:34
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     837k     5736.0
+    2-11  0.46       2k     1968.0
+TIME 2016-11-28 19:48:35
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     834k     5736.0
+    2-11  0.46       0k     2040.0
+TIME 2016-11-28 19:48:36
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     832k     5736.0
+    2-11  0.54       2k     2304.0
+TIME 2016-11-28 19:48:37
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     836k     5736.0
+    2-11  0.50       1k     2472.0
+TIME 2016-11-28 19:48:38
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     833k     5760.0
+    2-11  0.47       0k     2496.0
+TIME 2016-11-28 19:48:39
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     832k     5760.0
+    2-11  0.46       0k     2520.0
+TIME 2016-11-28 19:48:40
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     832k     5760.0
+    2-11  0.46       1k     2568.0
+TIME 2016-11-28 19:48:41
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     834k     5760.0
+    2-11  0.46       0k     2568.0
+TIME 2016-11-28 19:48:42
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     832k     5760.0
+    2-11  0.46       0k     2568.0
+TIME 2016-11-28 19:48:43
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     831k     5760.0
+    2-11  0.46       0k     2664.0
+TIME 2016-11-28 19:48:44
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     830k     5760.0
+    2-11  0.46       0k     2664.0
+TIME 2016-11-28 19:48:45
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     832k     5760.0
+    2-11  0.46       0k     2664.0
+TIME 2016-11-28 19:48:46
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     831k     5760.0
+    2-11  0.53       0k     2904.0
+TIME 2016-11-28 19:48:47
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     832k     5760.0
+    2-11  0.44       0k     2904.0
+TIME 2016-11-28 19:48:48
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     839k     5760.0
+    2-11  0.45       3k     2976.0
+TIME 2016-11-28 19:48:49
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     834k     5760.0
+    2-11  0.45       0k     2976.0
+TIME 2016-11-28 19:48:50
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     829k     5760.0
+    2-11  0.45       0k     2976.0
+TIME 2016-11-28 19:48:51
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.15     830k     5760.0
+    2-11  0.44       0k     2976.0
+TIME 2016-11-28 19:48:52
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.26   12050k     7464.0
+    2-11  1.14     812k     6264.0
+TIME 2016-11-28 19:48:53
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13744k     7464.0
+    2-11  1.14     877k     6312.0
+TIME 2016-11-28 19:48:54
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13742k     7464.0
+    2-11  1.14     887k     6312.0
+TIME 2016-11-28 19:48:55
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13738k     7464.0
+    2-11  1.14     885k     6312.0
+TIME 2016-11-28 19:48:56
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13765k     7464.0
+    2-11  1.14     897k     6456.0
+TIME 2016-11-28 19:48:57
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13764k     7464.0
+    2-11  1.14     890k     6456.0
+TIME 2016-11-28 19:48:58
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13766k     7464.0
+    2-11  1.14     903k     6456.0
+TIME 2016-11-28 19:48:59
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13763k     7464.0
+    2-11  1.14     908k     6480.0
+TIME 2016-11-28 19:49:00
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13767k     7464.0
+    2-11  1.14     918k     6504.0
+TIME 2016-11-28 19:49:01
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13769k     7464.0
+    2-11  1.14     929k     6528.0
+TIME 2016-11-28 19:49:02
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13768k     7464.0
+    2-11  1.14     927k     6528.0
+TIME 2016-11-28 19:49:03
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13768k     7512.0
+    2-11  1.14     996k     6528.0
+TIME 2016-11-28 19:49:04
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13761k     7512.0
+    2-11  1.14    1018k     6552.0
+TIME 2016-11-28 19:49:05
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13767k     7512.0
+    2-11  1.14    1012k     6792.0
+TIME 2016-11-28 19:49:06
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13774k     7512.0
+    2-11  1.14    1011k     6888.0
+TIME 2016-11-28 19:49:07
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13769k     7512.0
+    2-11  1.14    1003k     6888.0
+TIME 2016-11-28 19:49:08
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13775k     7512.0
+    2-11  1.14    1004k     6888.0
+TIME 2016-11-28 19:49:09
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13784k     7512.0
+    2-11  1.14    1005k     6888.0
+TIME 2016-11-28 19:49:10
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13795k     7512.0
+    2-11  1.14    1010k     6912.0
+TIME 2016-11-28 19:49:11
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.28   13787k     7512.0
+    2-11  1.14    1007k     6912.0
+TIME 2016-11-28 19:49:12
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13886k     7512.0
+    2-11  1.09     146k     6960.0
+TIME 2016-11-28 19:49:13
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13895k     7536.0
+    2-11  0.43       0k     6936.0
+TIME 2016-11-28 19:49:14
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13894k     7536.0
+    2-11  0.43       0k     6936.0
+TIME 2016-11-28 19:49:15
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13894k     7536.0
+    2-11  0.44       0k     6936.0
+TIME 2016-11-28 19:49:16
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13908k     7536.0
+    2-11  0.52       2k     6936.0
+TIME 2016-11-28 19:49:17
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13903k     7536.0
+    2-11  0.44       0k     6936.0
+TIME 2016-11-28 19:49:18
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13912k     7536.0
+    2-11  0.44       0k     6936.0
+TIME 2016-11-28 19:49:19
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13901k     7536.0
+    2-11  0.44       0k     6936.0
+TIME 2016-11-28 19:49:20
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13906k     7536.0
+    2-11  0.44       1k     6936.0
+TIME 2016-11-28 19:49:21
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13901k     7536.0
+    2-11  0.48       3k     6936.0
+TIME 2016-11-28 19:49:22
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13911k     7536.0
+    2-11  0.44       0k     6936.0
+TIME 2016-11-28 19:49:23
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13905k     7536.0
+    2-11  0.45       0k     6936.0
+TIME 2016-11-28 19:49:24
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13908k     7536.0
+    2-11  0.44       0k     6936.0
+TIME 2016-11-28 19:49:25
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13905k     7536.0
+    2-11  0.44       0k     6936.0
+TIME 2016-11-28 19:49:26
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13910k     7536.0
+    2-11  0.51       0k     6936.0
+TIME 2016-11-28 19:49:27
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13908k     7536.0
+    2-11  0.43       0k     6936.0
+TIME 2016-11-28 19:49:28
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13911k     7536.0
+    2-11  0.44       0k     6912.0
+TIME 2016-11-28 19:49:29
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13908k     7536.0
+    2-11  0.44       0k     6912.0
+TIME 2016-11-28 19:49:30
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13916k     7536.0
+    2-11  0.44       0k     6912.0
+TIME 2016-11-28 19:49:31
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.27   13907k     7536.0
+    2-11  0.43       0k     6936.0
+TIME 2016-11-28 19:49:32
+    CORE   IPC   MISSES    LLC[KB]
+     0-1  1.26    1792k     7536.0
+    2-11  0.53      30k     7008.0
