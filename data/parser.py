@@ -75,8 +75,8 @@ def plot_data(fig_name, title, x_axis, data_1, data_2, x_title, y_title):
 	# Draw the plots
 	pl.plot(x_axis[:43], data_1[:43], 'b', marker = '^', label = 'Mild')
 	pl.plot(x_axis[22:], data_2[22:], 'r', marker = 'o', label = 'Intensive')
-	pl.plot([22, 22], [y_axis_upper_bound, y_axis_lower_bound], 'k--', label = 'Mild-Starts - Intensive Migrates')
-	pl.plot([42, 42], [y_axis_upper_bound, y_axis_lower_bound], 'g--', label = 'Intensive Ends')
+	pl.plot([22, 22], [y_axis_upper_bound, y_axis_lower_bound], 'k--', label = 'Intensive-Starts - Mild Migrates')
+	pl.plot([42, 42], [y_axis_upper_bound, y_axis_lower_bound], 'g--', label = 'Mild Ends')
 	pl.ylim(y_axis_lower_bound, y_axis_upper_bound)
 	pl.xlim(0, x_axis[-1])
 	pl.title(title)
@@ -93,9 +93,9 @@ def plot_data(fig_name, title, x_axis, data_1, data_2, x_title, y_title):
 x_axis = range(0, len(data['IPC-1']))
 
 # Plot the IPC data
-plot_data('ipc.jpg', 'Instructions per Cycle (IPC)', x_axis, data['IPC-1'], data['IPC-2'], 'Time (seconds)', 'IPC')
+plot_data('ipc_swap.jpg', 'Instructions per Cycle (IPC)', x_axis, data['IPC-1'], data['IPC-2'], 'Time (seconds)', 'IPC')
 
 # Plot the LLC Miss data
 scaled_miss_1 = [x * 1000 for x in data['MISS-1']]
 scaled_miss_2 = [x * 1000 for x in data['MISS-2']]
-plot_data('miss.jpg', 'LLC Misses', x_axis, scaled_miss_1, scaled_miss_2, 'Time (seconds)', 'Number of Misses')
+plot_data('miss_swap.jpg', 'LLC Misses', x_axis, scaled_miss_1, scaled_miss_2, 'Time (seconds)', 'Number of Misses')
